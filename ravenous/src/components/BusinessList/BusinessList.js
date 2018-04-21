@@ -6,14 +6,15 @@ class BusinessList extends React.Component {
   render () {
     return () {
       <div className="BusinessList">
-      <Business className= "Business" />
-      <Business className= "image-container" />
-      <Business className= "Business.information" />
-      <Business className= "Business.address" />
-      <Business className= "Business.reviews" />
-      <Business className= "Business.rating" />
+      <Business />
+      <Business />
+      <Business />
+      <Business />
+      <Business />
+      <Business />
 </div>
-
     }
   }
 }
+
+export default BusinessList;
